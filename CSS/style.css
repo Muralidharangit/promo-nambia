@@ -4933,3 +4933,16 @@ a.btn.btn-outline-gold {
 .w-80 {
   width: 80% !important;
 }
+
+/* Logo Hover Enhancements */
+.logo-wrapper:hover {
+  transform: scale(1.02);
+}
+
+.logo-wrapper:hover .main-logo-img {
+  filter: drop-shadow(0 6px 12px rgba(255, 215, 0, 0.4)) !important;
+}
+
+.logo-wrapper:hover .logo-text {
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5), 0 2px 4px rgba(0,0,0,0.5) !important;
+}
